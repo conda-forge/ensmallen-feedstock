@@ -1,13 +1,13 @@
 {% set name = "ensmallen" %}
-{% set version = "1.16.2" %}
+{% set version = "2.10.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/mlpack/{{ name }}/archive/{{ name }}-{{ version }}.tar.gz
-  sha256: 0e20bbeb26b64ae697557d13e567e439a8ea910aa9bc0fa2723d9c55d8851e75
+  url: https://github.com/mlpack/ensmallen/archive/{{ version }}.tar.gz
+  sha256: b77d48bb768ce55b481ea83c434a352ba0116ca851906a442e092cd3f464e347
 
 build:
   number: 0
@@ -19,13 +19,11 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - ninja  # [win]
-
   host:
     - armadillo >=6.500.0
     - libblas
     - libcblas
     - openmp
-
   run:
     - armadillo
     - openmp

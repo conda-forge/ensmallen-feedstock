@@ -26,6 +26,7 @@ requirements:
     - libcblas ==3.8  # [win]
     - openmp
     - vc ==9  # [win]
+    - vc >=14  # [win]
   run:
     - armadillo
     - openmp

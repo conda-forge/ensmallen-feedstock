@@ -10,8 +10,6 @@ cxx_compiler:
 - vs2008
 libblas:
 - 3.8 *netlib
-libcblas:
-- 3.8 *netlib
 zip_keys:
 - - c_compiler
   - cxx_compiler

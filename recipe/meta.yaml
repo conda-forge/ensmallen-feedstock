@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [not win or osx or linux]
+  skip: true  # [not win and osx and linux]
 
 requirements:
   build:
@@ -22,8 +22,10 @@ requirements:
   host:
     - armadillo >=6.500.0
     - libblas
-    - libcblas
+    - libcblas  # [not win]
+    - libcblas ==3.8  # [win]
     - openmp
+    - vc >=14  # [win]
   run:
     - armadillo
     - openmp

@@ -14,5 +14,3 @@ docker_image:
 - condaforge/linux-anvil-comp7
 libblas:
 - 3.8 *netlib
-libcblas:
-- 3.8 *netlib

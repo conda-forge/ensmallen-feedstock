@@ -10,8 +10,7 @@ source:
   sha256: 314045d7d63997deb0ea36d0046506569aff58fa7dbd54ffaff5f9ba78ff5ff8
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
 
 requirements:
   build:
@@ -20,9 +19,8 @@ requirements:
     - cmake
     - ninja  # [win]
   host:
-    - armadillo >=6.500.0
+    - armadillo >=8.400.0
     - libblas
-    - libcblas
     - openmp
   run:
     - armadillo

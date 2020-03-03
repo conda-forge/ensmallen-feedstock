@@ -1,5 +1,5 @@
 {% set name = "ensmallen" %}
-{% set version = "2.11.3" %}
+{% set version = "2.11.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mlpack/ensmallen/archive/{{ version }}.tar.gz
-  sha256: 52ddd26549ae014423d07c5ef8f1f418dc2cdfaa00e093db58392818154ce7f6
+  sha256: 9c131c244d7b407655812e113b0fda27b8dfaba8ad04397c333c982c5f069696
 
 build:
   number: 0
@@ -32,13 +32,12 @@ test:
     - test -d $PREFIX/include/ensmallen_bits                   # [unix]
     - if not exist %LIBRARY_INC%\\ensmallen.hpp exit 1         # [win]
     - if not exist %LIBRARY_INC%\\ensmallen_bits exit 1        # [win]
-    
 about:
   home: http://ensmallen.org/
   license: BSD-3
   license_family: BSD
   license_file: COPYRIGHT.txt
-  summary: 'ensmallen is a C++ header-only library for mathematical optimization.'
+  summary: ensmallen is a C++ header-only library for mathematical optimization.
   description: |
     ensmallen provides a simple set of abstractions for writing an objective 
     function to optimize. It     also provides a large set of standard and 

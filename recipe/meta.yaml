@@ -34,7 +34,7 @@ test:
     - if not exist %LIBRARY_INC%\\ensmallen_bits exit 1        # [win]
 about:
   home: http://ensmallen.org/
-  license: BSD-3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: COPYRIGHT.txt
   summary: ensmallen is a C++ header-only library for mathematical optimization.

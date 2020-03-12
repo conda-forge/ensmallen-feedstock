@@ -3,7 +3,7 @@ About ensmallen
 
 Home: http://ensmallen.org/
 
-Package license: BSD-3
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 

@@ -10,6 +10,3 @@ cxx_compiler:
 - vs2017
 libblas:
 - 3.8 *netlib
-zip_keys:
-- - c_compiler
-  - cxx_compiler

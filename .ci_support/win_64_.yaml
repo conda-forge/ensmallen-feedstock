@@ -10,3 +10,5 @@ cxx_compiler:
 - vs2017
 libblas:
 - 3.8 *netlib
+target_platform:
+- win-64

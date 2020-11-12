@@ -5,9 +5,13 @@ Home: http://ensmallen.org/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ensmallen-feedstock/blob/master/LICENSE.txt)
 
 Summary: ensmallen is a C++ header-only library for mathematical optimization.
+
+Development: https://github.com/mlpack/ensmallen
+
+Documentation: http://ensmallen.org/docs.html
 
 ensmallen provides a simple set of abstractions for writing an objective
 function to optimize. It     also provides a large set of standard and

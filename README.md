@@ -80,6 +80,7 @@ Installing `ensmallen` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `ensmallen` can be installed with:
@@ -158,5 +159,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@coatless](https://github.com/coatless/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@rcurtin](https://github.com/rcurtin/)
+* [@zoq](https://github.com/zoq/)
 

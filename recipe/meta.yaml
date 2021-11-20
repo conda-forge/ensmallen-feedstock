@@ -1,5 +1,5 @@
 {% set name = "ensmallen" %}
-{% set version = "2.17.0" %}
+{% set version = "2.18.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mlpack/ensmallen/archive/{{ version }}.tar.gz
-  sha256: 9322cffceaf1e171b427f14e693e03ee9e1033fb404dfdbc8956cd8fa4e331d9
+  sha256: 573964639bb52f7a5518f41d1d4c673dc69685f5d36dad3d87deaaa5f8c23e87
 
 build:
   number: 0

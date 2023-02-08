@@ -19,7 +19,7 @@ requirements:
     - cmake
     - ninja  # [win]
   host:
-    - armadillo >=8.400.0
+    - armadillo >=9.800.0
     - libblas
     - openmp
   run:

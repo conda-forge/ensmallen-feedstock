@@ -9,8 +9,9 @@ source:
   url: https://github.com/mlpack/ensmallen/archive/{{ version }}.tar.gz
   sha256: 573964639bb52f7a5518f41d1d4c673dc69685f5d36dad3d87deaaa5f8c23e87
 
+
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -19,7 +20,7 @@ requirements:
     - cmake
     - ninja  # [win]
   host:
-    - armadillo >=8.400.0
+    - armadillo >=9.800.0
     - libblas
     - openmp
   run:

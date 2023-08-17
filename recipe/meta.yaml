@@ -19,13 +19,13 @@ requirements:
     - cmake
     - make
     - ninja  # [win]
+    - llvm-openmp  # [osx]
+    - libgomp      # [linux]
   host:
     - armadillo >=9.800.0
     - libblas
-    - openmp
   run:
     - armadillo
-    - openmp
 
 test:
   commands:
